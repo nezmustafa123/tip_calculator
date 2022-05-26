@@ -45,7 +45,7 @@ img {
 /* SECTION */
 section {
   height: 100vh;
-  background-color: var(--light-blue);
+  background-color: var(--color-primary);
   display: flex;
   justify-content: center;
   align-items: center;
