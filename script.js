@@ -17,6 +17,16 @@ const calculateTip = () => {
 
     error.style.display = "block";
     hideError();
+  } else if (isNaN(bill)) {
+    //if value of bill is not a number is going to apply
+    error.innerHTML = "Please enter a valid number";
+  } else {
+    let tipAmt = bill * rate;
+    tipAmt = Math.ceil(tipAmt);
+    tip.innerHTML = `Tip: $ ${tipAmt}`;
+
+    let totalBill = Number(bill) + tipAmt; //convert bill to number
+    total.innerHTML = `Total Amount: $ ${totalBill}`;
   }
 };
 btn.addEventListener("click", calculateTip);
