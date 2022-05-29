@@ -4,9 +4,9 @@
   --white: #fff;
   --black: #1c2b2d;
   --blue: #31326f;
-  --light-blue: #005490;
+  --light-blue: #1281cf;
   --color-primary: #9d0191;
-  --color-sec: #db6400;
+  --color-sec: #de690a;
   --grey: #eee;
   --dark-grey: #222831;
 }
@@ -46,7 +46,13 @@ img {
 /* SECTION */
 section {
   height: 100vh;
-  background-color: var(--color-primary);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,8 +65,13 @@ section {
 
 h2 {
   font-size: 4rem;
-  color: var(--white);
-  background-color: var(--color-sec);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    289deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.579) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   text-align: center;
   padding: 1rem;
 }
