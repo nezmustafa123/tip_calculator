@@ -4,7 +4,7 @@
   --white: #fff;
   --black: #1c2b2d;
   --blue: #31326f;
-  --light-blue: #1281cf;
+  --light-blue: #99d5ff;
   --color-primary: #9d0191;
   --color-sec: #de690a;
   --grey: #eee;
@@ -35,7 +35,7 @@ img {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 100px;
   margin: 0 auto;
   padding: 0 20px;
   border-radius: 10%;
@@ -102,7 +102,7 @@ select {
 
 .btn {
   margin: 5px 0;
-  background-color: var(--color-primary);
+  background-color: var(--light-blue);
   color: var(--white);
   outline: none;
   border: none;
@@ -135,5 +135,5 @@ select {
 }
 
 .total {
-  color: red;
+  color: var(--light-blue);
 }
